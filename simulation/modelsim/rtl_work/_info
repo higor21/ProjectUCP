@@ -1,0 +1,208 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\W8.1\Documents\Projeto Processador\Meu Projeto (1)\Meu Projeto\simulation\modelsim
+Eacc
+Z1 w1512761493
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\W8.1\Documents\Projeto Processador\Meu Projeto (1)\Meu Projeto\simulation\modelsim
+Z5 8C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/acc.vhd
+Z6 FC:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/acc.vhd
+l0
+L8
+VhU^YhmInJBFalZ4K0?^W?2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1512762434.975000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/acc.vhd|
+Z10 !s107 C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/acc.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 foi`9GnIFnm`Wd_1a:XKF1
+!i10b 1
+Abhv
+R2
+R3
+DEx4 work 3 acc 0 22 hU^YhmInJBFalZ4K0?^W?2
+l19
+L17
+VTFBLd@0K9bMNfPAA:[c;R0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 6zzh`Z6W2mg?1>fDg<1LF1
+!i10b 1
+Ealu
+w1512742437
+Z13 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+8C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/alu.vhd
+FC:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/alu.vhd
+l0
+L5
+VSz]`2hc[ikYc@UJJmEa<;3
+!s100 BNCY?c@j_LCYYne?1;@4K2
+R7
+31
+!i10b 1
+!s108 1512762435.975000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/alu.vhd|
+!s107 C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/alu.vhd|
+R11
+R12
+Ectrl
+Z14 w1512760818
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z16 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R13
+R2
+R3
+R4
+Z17 8C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/ctrl.vhdl
+Z18 FC:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/ctrl.vhdl
+l0
+L8
+VNP1P^IoYZoZbM6dG]F7fT3
+R7
+31
+Z19 !s108 1512762433.603000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/ctrl.vhdl|
+Z21 !s107 C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/ctrl.vhdl|
+R11
+R12
+!s100 gNbGlZj:nDA?bz@6k]IZS1
+!i10b 1
+Afsm
+R15
+R16
+R13
+R2
+R3
+DEx4 work 4 ctrl 0 22 NP1P^IoYZoZbM6dG]F7fT3
+l50
+L20
+VGD:^FfBOdmjzE@eJ[h>>N2
+R7
+31
+R19
+R20
+R21
+R11
+R12
+!s100 f<;J5[]QEP_Q[IdKEQ3zo0
+!i10b 1
+Edp
+Z22 w1512754659
+R2
+R3
+R4
+Z23 8C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/dp.vhdl
+Z24 FC:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/dp.vhdl
+l0
+L4
+VXe0^Uzm1?lGg5CKlOH?<Y0
+R7
+31
+Z25 !s108 1512762433.103000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/dp.vhdl|
+Z27 !s107 C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/dp.vhdl|
+R11
+R12
+!s100 @gV;<YTS<g=XAj4M5dQIA0
+!i10b 1
+Artl2
+R2
+R3
+DEx4 work 2 dp 0 22 Xe0^Uzm1?lGg5CKlOH?<Y0
+l55
+L16
+Vl0cEfX?K]:_7jXe:IZ]o42
+R7
+31
+R25
+R26
+R27
+R11
+R12
+!s100 RmALS[X40:FY_G^AeS_c<3
+!i10b 1
+Eprocessador
+Z28 w1512762346
+R13
+R2
+R3
+R4
+Z29 8C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/cpu.vhdl
+Z30 FC:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/cpu.vhdl
+l0
+L8
+Vd1mCk<CCI2;fL1joE6obb2
+R7
+31
+Z31 !s108 1512762434.232000
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/cpu.vhdl|
+Z33 !s107 C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/cpu.vhdl|
+R11
+R12
+!s100 nQJX_l:G2a[FV:LE5:5cC2
+!i10b 1
+Astruc
+R13
+R2
+R3
+DEx4 work 11 processador 0 22 d1mCk<CCI2;fL1joE6obb2
+l59
+L18
+V`LK]nT9o?dNTC6H1@_0:m0
+R7
+31
+R31
+R32
+R33
+R11
+R12
+!s100 NY`daeYIS4dMa2I[_0`@U0
+!i10b 1
+Erf
+R22
+R2
+R3
+R4
+Z34 8C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/rf.vhd
+Z35 FC:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/rf.vhd
+l0
+L12
+Vk2NiR[gnBi;h=z9FU^JD71
+R7
+31
+Z36 !s108 1512762435.459000
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/rf.vhd|
+Z38 !s107 C:/Users/W8.1/Documents/Projeto Processador/Meu Projeto (1)/Meu Projeto/rf.vhd|
+R11
+R12
+!s100 :L=g36z;e>gPzkmb8<BeT2
+!i10b 1
+Abhv
+R2
+R3
+DEx4 work 2 rf 0 22 k2NiR[gnBi;h=z9FU^JD71
+l26
+L23
+VegLai]EZeC:WYUV_>d_zm3
+R7
+31
+R36
+R37
+R38
+R11
+R12
+!s100 faI7AfU9]Fgm2Bbhi?U6m3
+!i10b 1

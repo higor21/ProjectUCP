@@ -1,0 +1,1930 @@
+$comment
+	File created using the following command:
+		vcd file Processador.msim.vcd -direction
+$end
+$date
+	Fri Dec 08 19:23:22 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Processador_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 1 # start $end
+$var wire 1 $ Q1 [6] $end
+$var wire 1 % Q1 [5] $end
+$var wire 1 & Q1 [4] $end
+$var wire 1 ' Q1 [3] $end
+$var wire 1 ( Q1 [2] $end
+$var wire 1 ) Q1 [1] $end
+$var wire 1 * Q1 [0] $end
+$var wire 1 + Q2 [6] $end
+$var wire 1 , Q2 [5] $end
+$var wire 1 - Q2 [4] $end
+$var wire 1 . Q2 [3] $end
+$var wire 1 / Q2 [2] $end
+$var wire 1 0 Q2 [1] $end
+$var wire 1 1 Q2 [0] $end
+$var wire 1 2 sampler $end
+$scope module i1 $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var tri1 1 6 devclrn $end
+$var tri1 1 7 devpor $end
+$var tri1 1 8 devoe $end
+$var wire 1 9 datapath|ALU_use|soma|FA_1|s~0_combout $end
+$var wire 1 : controller|state.s13~regout $end
+$var wire 1 ; datapath|in_rf~1_combout $end
+$var wire 1 < controller|Selector48~0_combout $end
+$var wire 1 = datapath|in_rf~2_combout $end
+$var wire 1 > controller|Selector34~0_combout $end
+$var wire 1 ? datapath|RF_use|Mux18~0_combout $end
+$var wire 1 @ datapath|RF_use|Mux18~1_combout $end
+$var wire 1 A controller|Selector33~0_combout $end
+$var wire 1 B datapath|RF_use|Mux17~0_combout $end
+$var wire 1 C datapath|RF_use|Mux17~1_combout $end
+$var wire 1 D datapath|RF_use|out0~0_combout $end
+$var wire 1 E datapath|RF_use|out1~2_combout $end
+$var wire 1 F datapath|RF_use|out2~2_combout $end
+$var wire 1 G datapath|RF_use|out0~2_combout $end
+$var wire 1 H datapath|RF_use|out3~2_combout $end
+$var wire 1 I datapath|RF_use|out1~3_combout $end
+$var wire 1 J datapath|RF_use|out2~3_combout $end
+$var wire 1 K datapath|RF_use|out0~3_combout $end
+$var wire 1 L datapath|RF_use|out3~3_combout $end
+$var wire 1 M datapath|RF_use|out1~4_combout $end
+$var wire 1 N datapath|RF_use|out3~4_combout $end
+$var wire 1 O clk~combout $end
+$var wire 1 P clk~clkctrl_outclk $end
+$var wire 1 Q rst~combout $end
+$var wire 1 R controller|Add0~1 $end
+$var wire 1 S controller|Add0~3 $end
+$var wire 1 T controller|Add0~4_combout $end
+$var wire 1 U controller|Add0~6_combout $end
+$var wire 1 V start~combout $end
+$var wire 1 W controller|state.s0~0_combout $end
+$var wire 1 X controller|state.s0~regout $end
+$var wire 1 Y controller|WideOr0~0_combout $end
+$var wire 1 Z controller|CODE[3]~feeder_combout $end
+$var wire 1 [ controller|state.s4~regout $end
+$var wire 1 \ controller|Add0~2_combout $end
+$var wire 1 ] controller|Add0~7_combout $end
+$var wire 1 ^ controller|Mux1~0_combout $end
+$var wire 1 _ controller|Selector49~0_combout $end
+$var wire 1 ` controller|state.done~0_combout $end
+$var wire 1 a controller|state.done~regout $end
+$var wire 1 b controller|Selector37~0_combout $end
+$var wire 1 c controller|Selector37~1_combout $end
+$var wire 1 d controller|Selector37~2_combout $end
+$var wire 1 e controller|state.s1~regout $end
+$var wire 1 f controller|state.s2~regout $end
+$var wire 1 g controller|Add0~0_combout $end
+$var wire 1 h controller|Selector31~0_combout $end
+$var wire 1 i controller|Mux0~0_combout $end
+$var wire 1 j controller|Selector43~0_combout $end
+$var wire 1 k controller|state.s8~regout $end
+$var wire 1 l controller|Selector40~0_combout $end
+$var wire 1 m controller|state.s5~regout $end
+$var wire 1 n controller|Selector41~0_combout $end
+$var wire 1 o controller|state.s6~regout $end
+$var wire 1 p controller|Selector51~1_combout $end
+$var wire 1 q controller|Selector51~0_combout $end
+$var wire 1 r controller|Selector51~2_combout $end
+$var wire 1 s controller|enb_acc~regout $end
+$var wire 1 t datapath|ALU_use|output[1]~0_combout $end
+$var wire 1 u controller|Mux2~0_combout $end
+$var wire 1 v controller|Selector32~0_combout $end
+$var wire 1 w controller|WideOr1~0_combout $end
+$var wire 1 x controller|Mux6~0_combout $end
+$var wire 1 y controller|Mux3~0_combout $end
+$var wire 1 z controller|ADDRESS[2]~feeder_combout $end
+$var wire 1 { controller|ADDRESS_OUT[0]~feeder_combout $end
+$var wire 1 | controller|Selector42~0_combout $end
+$var wire 1 } controller|state.s7~regout $end
+$var wire 1 ~ controller|WideOr12~combout $end
+$var wire 1 !! datapath|RF_use|out2~4_combout $end
+$var wire 1 "! controller|Selector50~0_combout $end
+$var wire 1 #! controller|enb_rf~feeder_combout $end
+$var wire 1 $! controller|enb_rf~regout $end
+$var wire 1 %! datapath|RF_use|out2[2]~1_combout $end
+$var wire 1 &! datapath|RF_use|out0~4_combout $end
+$var wire 1 '! datapath|RF_use|out0[1]~1_combout $end
+$var wire 1 (! datapath|RF_use|Mux16~0_combout $end
+$var wire 1 )! datapath|RF_use|Mux16~1_combout $end
+$var wire 1 *! datapath|in_rf~3_combout $end
+$var wire 1 +! datapath|ALU_use|Mux0~2_combout $end
+$var wire 1 ,! datapath|ALU_use|output[1]~1_combout $end
+$var wire 1 -! datapath|ALU_use|Mux1~1_combout $end
+$var wire 1 .! controller|Selector35~0_combout $end
+$var wire 1 /! datapath|RF_use|out3~0_combout $end
+$var wire 1 0! datapath|RF_use|out3[2]~1_combout $end
+$var wire 1 1! datapath|ACC_use|output~3_combout $end
+$var wire 1 2! rst~clkctrl_outclk $end
+$var wire 1 3! datapath|ALU_use|Mux3~0_combout $end
+$var wire 1 4! datapath|ALU_use|output[1]~2_combout $end
+$var wire 1 5! datapath|RF_use|out2~0_combout $end
+$var wire 1 6! datapath|RF_use|out1~0_combout $end
+$var wire 1 7! datapath|RF_use|out1[2]~1_combout $end
+$var wire 1 8! datapath|RF_use|Mux19~0_combout $end
+$var wire 1 9! datapath|RF_use|Mux19~1_combout $end
+$var wire 1 :! datapath|in_rf~0_combout $end
+$var wire 1 ;! datapath|ALU_use|Mux2~1_combout $end
+$var wire 1 <! datapath|ALU_use|Mux2~0_combout $end
+$var wire 1 =! datapath|ALU_use|Mux2~2_combout $end
+$var wire 1 >! datapath|ACC_use|output~0_combout $end
+$var wire 1 ?! datapath|ALU_use|soma|FA_1|cout~0_combout $end
+$var wire 1 @! datapath|ALU_use|Mux0~0_combout $end
+$var wire 1 A! datapath|ALU_use|Mux1~0_combout $end
+$var wire 1 B! datapath|ALU_use|Mux1~2_combout $end
+$var wire 1 C! datapath|ACC_use|output~1_combout $end
+$var wire 1 D! datapath|ALU_use|soma|FA_3|s~0_combout $end
+$var wire 1 E! datapath|ALU_use|Mux0~1_combout $end
+$var wire 1 F! datapath|ALU_use|Mux0~3_combout $end
+$var wire 1 G! datapath|ACC_use|output~2_combout $end
+$var wire 1 H! datapath|output_dp~2_combout $end
+$var wire 1 I! datapath|output_dp~1_combout $end
+$var wire 1 J! datapath|output_dp~0_combout $end
+$var wire 1 K! Conversor|Mux0~0_combout $end
+$var wire 1 L! Conversor|Q1[1]~feeder_combout $end
+$var wire 1 M! Conversor|Q1[2]~feeder_combout $end
+$var wire 1 N! Conversor|Q1[3]~feeder_combout $end
+$var wire 1 O! Conversor|Q1[6]~feeder_combout $end
+$var wire 1 P! datapath|output_dp~3_combout $end
+$var wire 1 Q! Conversor|Mux7~0_combout $end
+$var wire 1 R! Conversor|Mux6~0_combout $end
+$var wire 1 S! Conversor|Mux5~0_combout $end
+$var wire 1 T! Conversor|Mux4~0_combout $end
+$var wire 1 U! Conversor|Mux3~0_combout $end
+$var wire 1 V! Conversor|Mux2~0_combout $end
+$var wire 1 W! Conversor|Mux1~0_combout $end
+$var wire 1 X! datapath|output_dp [3] $end
+$var wire 1 Y! datapath|output_dp [2] $end
+$var wire 1 Z! datapath|output_dp [1] $end
+$var wire 1 [! datapath|output_dp [0] $end
+$var wire 1 \! controller|imm [3] $end
+$var wire 1 ]! controller|imm [2] $end
+$var wire 1 ^! controller|imm [1] $end
+$var wire 1 _! controller|imm [0] $end
+$var wire 1 `! datapath|in_rf [3] $end
+$var wire 1 a! datapath|in_rf [2] $end
+$var wire 1 b! datapath|in_rf [1] $end
+$var wire 1 c! datapath|in_rf [0] $end
+$var wire 1 d! datapath|ALU_use|output [3] $end
+$var wire 1 e! datapath|ALU_use|output [2] $end
+$var wire 1 f! datapath|ALU_use|output [1] $end
+$var wire 1 g! datapath|ALU_use|output [0] $end
+$var wire 1 h! datapath|RF_use|out2 [3] $end
+$var wire 1 i! datapath|RF_use|out2 [2] $end
+$var wire 1 j! datapath|RF_use|out2 [1] $end
+$var wire 1 k! datapath|RF_use|out2 [0] $end
+$var wire 1 l! datapath|RF_use|out0 [3] $end
+$var wire 1 m! datapath|RF_use|out0 [2] $end
+$var wire 1 n! datapath|RF_use|out0 [1] $end
+$var wire 1 o! datapath|RF_use|out0 [0] $end
+$var wire 1 p! datapath|RF_use|output [3] $end
+$var wire 1 q! datapath|RF_use|output [2] $end
+$var wire 1 r! datapath|RF_use|output [1] $end
+$var wire 1 s! datapath|RF_use|output [0] $end
+$var wire 1 t! controller|PC [31] $end
+$var wire 1 u! controller|PC [30] $end
+$var wire 1 v! controller|PC [29] $end
+$var wire 1 w! controller|PC [28] $end
+$var wire 1 x! controller|PC [27] $end
+$var wire 1 y! controller|PC [26] $end
+$var wire 1 z! controller|PC [25] $end
+$var wire 1 {! controller|PC [24] $end
+$var wire 1 |! controller|PC [23] $end
+$var wire 1 }! controller|PC [22] $end
+$var wire 1 ~! controller|PC [21] $end
+$var wire 1 !" controller|PC [20] $end
+$var wire 1 "" controller|PC [19] $end
+$var wire 1 #" controller|PC [18] $end
+$var wire 1 $" controller|PC [17] $end
+$var wire 1 %" controller|PC [16] $end
+$var wire 1 &" controller|PC [15] $end
+$var wire 1 '" controller|PC [14] $end
+$var wire 1 (" controller|PC [13] $end
+$var wire 1 )" controller|PC [12] $end
+$var wire 1 *" controller|PC [11] $end
+$var wire 1 +" controller|PC [10] $end
+$var wire 1 ," controller|PC [9] $end
+$var wire 1 -" controller|PC [8] $end
+$var wire 1 ." controller|PC [7] $end
+$var wire 1 /" controller|PC [6] $end
+$var wire 1 0" controller|PC [5] $end
+$var wire 1 1" controller|PC [4] $end
+$var wire 1 2" controller|PC [3] $end
+$var wire 1 3" controller|PC [2] $end
+$var wire 1 4" controller|PC [1] $end
+$var wire 1 5" controller|PC [0] $end
+$var wire 1 6" controller|CODE [3] $end
+$var wire 1 7" controller|CODE [2] $end
+$var wire 1 8" controller|CODE [1] $end
+$var wire 1 9" controller|CODE [0] $end
+$var wire 1 :" Conversor|Q1 [6] $end
+$var wire 1 ;" Conversor|Q1 [5] $end
+$var wire 1 <" Conversor|Q1 [4] $end
+$var wire 1 =" Conversor|Q1 [3] $end
+$var wire 1 >" Conversor|Q1 [2] $end
+$var wire 1 ?" Conversor|Q1 [1] $end
+$var wire 1 @" Conversor|Q1 [0] $end
+$var wire 1 A" datapath|RF_use|out3 [3] $end
+$var wire 1 B" datapath|RF_use|out3 [2] $end
+$var wire 1 C" datapath|RF_use|out3 [1] $end
+$var wire 1 D" datapath|RF_use|out3 [0] $end
+$var wire 1 E" Conversor|Q2 [6] $end
+$var wire 1 F" Conversor|Q2 [5] $end
+$var wire 1 G" Conversor|Q2 [4] $end
+$var wire 1 H" Conversor|Q2 [3] $end
+$var wire 1 I" Conversor|Q2 [2] $end
+$var wire 1 J" Conversor|Q2 [1] $end
+$var wire 1 K" Conversor|Q2 [0] $end
+$var wire 1 L" controller|ADDRESS [3] $end
+$var wire 1 M" controller|ADDRESS [2] $end
+$var wire 1 N" controller|ADDRESS [1] $end
+$var wire 1 O" controller|ADDRESS [0] $end
+$var wire 1 P" datapath|ACC_use|output [3] $end
+$var wire 1 Q" datapath|ACC_use|output [2] $end
+$var wire 1 R" datapath|ACC_use|output [1] $end
+$var wire 1 S" datapath|ACC_use|output [0] $end
+$var wire 1 T" datapath|ACC_use|temp [3] $end
+$var wire 1 U" datapath|ACC_use|temp [2] $end
+$var wire 1 V" datapath|ACC_use|temp [1] $end
+$var wire 1 W" datapath|ACC_use|temp [0] $end
+$var wire 1 X" datapath|RF_use|out1 [3] $end
+$var wire 1 Y" datapath|RF_use|out1 [2] $end
+$var wire 1 Z" datapath|RF_use|out1 [1] $end
+$var wire 1 [" datapath|RF_use|out1 [0] $end
+$var wire 1 \" controller|ADDRESS_OUT [1] $end
+$var wire 1 ]" controller|ADDRESS_OUT [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+01
+00
+0/
+0.
+0-
+0,
+0+
+x2
+03
+14
+x5
+16
+17
+18
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+1R
+1S
+0T
+0U
+0V
+0W
+0X
+1Y
+0Z
+0[
+1\
+0]
+1^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+1h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+1w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+0,!
+0-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+14!
+05!
+06!
+07!
+08!
+09!
+0:!
+0;!
+0<!
+0=!
+0>!
+0?!
+0@!
+0A!
+0B!
+0C!
+0D!
+0E!
+0F!
+0G!
+0H!
+0I!
+0J!
+0K!
+0L!
+0M!
+0N!
+0O!
+0P!
+1Q!
+0R!
+0S!
+0T!
+0U!
+0V!
+0W!
+0[!
+0Z!
+0Y!
+0X!
+0_!
+0^!
+0]!
+0\!
+0c!
+0b!
+0a!
+0`!
+0g!
+0f!
+0e!
+0d!
+0k!
+0j!
+0i!
+0h!
+0o!
+0n!
+0m!
+0l!
+0s!
+0r!
+0q!
+0p!
+05"
+04"
+03"
+z2"
+z1"
+z0"
+z/"
+z."
+z-"
+z,"
+z+"
+z*"
+z)"
+z("
+z'"
+z&"
+z%"
+z$"
+z#"
+z""
+z!"
+z~!
+z}!
+z|!
+z{!
+zz!
+zy!
+zx!
+zw!
+zv!
+zu!
+zt!
+09"
+08"
+z7"
+06"
+z@"
+0?"
+0>"
+0="
+z<"
+z;"
+0:"
+0D"
+0C"
+0B"
+0A"
+0K"
+0J"
+0I"
+0H"
+0G"
+0F"
+0E"
+0O"
+zN"
+0M"
+0L"
+0S"
+0R"
+0Q"
+0P"
+0W"
+0V"
+0U"
+0T"
+0["
+0Z"
+0Y"
+0X"
+0]"
+0\"
+$end
+#5000
+1!
+1O
+1P
+02
+1K"
+15"
+1y
+1i
+0^
+0R
+1g
+11
+1z
+0\
+#10000
+0!
+0O
+0P
+12
+#15000
+1!
+1O
+1P
+02
+#20000
+1#
+0!
+1V
+0O
+0P
+12
+1c
+1W
+1d
+#25000
+1!
+1O
+1P
+02
+1e
+1X
+1.!
+1b
+1A
+1q
+0Y
+0c
+0d
+#30000
+0!
+0O
+0P
+12
+#35000
+1!
+1O
+1P
+02
+1_!
+1M"
+18"
+1f
+0e
+1O"
+1]!
+1{
+0A
+1x
+0h
+1Y
+0.!
+0w
+1:!
+1=
+#40000
+0!
+0O
+0P
+12
+#45000
+1!
+1O
+1P
+02
+1c!
+05"
+0f
+1[
+1a!
+13!
+0y
+0i
+1^
+1R
+0g
+0b
+0Y
+0q
+1l
+1-!
+0z
+1\
+1B!
+#50000
+0!
+0O
+0P
+12
+#55000
+1!
+1O
+1P
+02
+1e!
+1g!
+1m
+0[
+1.!
+1w
+1p
+1A
+1q
+0l
+1c
+1r
+1d
+#60000
+0!
+0O
+0P
+12
+#65000
+1!
+1O
+1P
+02
+1s
+0m
+1e
+1C!
+11!
+0.!
+0p
+0A
+1b
+0r
+0c
+0d
+#70000
+0!
+0O
+0P
+12
+#75000
+1!
+1O
+1P
+02
+1Q"
+1S"
+1W"
+0_!
+1U"
+0M"
+0s
+08"
+1f
+0e
+19"
+0O"
+0]!
+1I!
+1D!
+1P!
+19
+0:!
+0{
+0x
+1h
+1]
+1Y
+0w
+1,!
+0=
+#80000
+0#
+0!
+0V
+0O
+0P
+12
+#85000
+1!
+1O
+1P
+02
+1[!
+1Y!
+0c!
+15"
+0f
+14"
+1[
+0a!
+1V!
+1S!
+0Q!
+09
+1u
+1i
+0^
+0R
+1g
+0b
+0]
+0Y
+0S
+0\
+1|
+0q
+0D!
+1S
+1\
+1T
+0T
+#90000
+0!
+0O
+0P
+12
+#95000
+1!
+1O
+1P
+02
+1F"
+1I"
+0K"
+1}
+0[
+1"!
+1~
+0|
+1c
+1,
+1/
+01
+1#!
+1d
+#100000
+0!
+0O
+0P
+12
+#105000
+1!
+1O
+1P
+02
+1$!
+0}
+1e
+1'!
+0"!
+1K
+1D
+0~
+1q
+1.!
+1w
+1v
+1b
+0#!
+0c
+0d
+#110000
+0!
+0O
+0P
+12
+#115000
+1!
+1O
+1P
+02
+1_!
+0$!
+1L"
+1\!
+18"
+1f
+0e
+09"
+1m!
+1o!
+1O"
+0'!
+0K
+0D
+0v
+1x
+0h
+1]
+1Y
+0.!
+0w
+0,!
+1B
+18!
+1:!
+1*!
+03!
+0-!
+1C
+19!
+0B!
+#120000
+0!
+0O
+0P
+12
+#125000
+1!
+1O
+1P
+02
+0e!
+1c!
+1s!
+0g!
+1`!
+05"
+0f
+1[
+1q!
+13!
+19
+1D!
+1+!
+0u
+0i
+1R
+0g
+0b
+0]
+0Y
+0q
+1l
+1F!
+0S
+0\
+1T
+#130000
+0!
+0O
+0P
+12
+#135000
+1!
+1O
+1P
+02
+1d!
+1g!
+1m
+0[
+1.!
+1w
+1v
+1p
+1q
+0l
+1c
+1r
+1d
+#140000
+0!
+0O
+0P
+12
+#145000
+1!
+1O
+1P
+02
+1s
+0m
+1e
+1G!
+0C!
+0.!
+0v
+0p
+1b
+0r
+0c
+0d
+#150000
+0!
+0O
+0P
+12
+#155000
+1!
+1O
+1P
+02
+1P"
+0Q"
+0_!
+0U"
+0L"
+0\!
+1T"
+0s
+08"
+1f
+0e
+0O"
+1H!
+0I!
+0:!
+0*!
+0x
+1h
+1Y
+1U
+0w
+1:!
+1=
+#160000
+0!
+0O
+0P
+12
+#165000
+1!
+1O
+1P
+02
+0Y!
+1X!
+0`!
+15"
+0f
+04"
+1[
+13"
+1a!
+0V!
+0S!
+1R!
+0D!
+0+!
+1y
+1u
+1^
+0R
+1g
+0b
+0Y
+0U
+1S
+1\
+0q
+1n
+1Z
+0T
+1-!
+0F!
+1z
+0\
+1T
+1B!
+#170000
+0!
+0O
+0P
+12
+#175000
+1!
+1O
+1P
+02
+0F"
+0I"
+1J"
+0d!
+1e!
+1o
+0[
+1~
+1p
+1q
+0n
+1c
+0,
+0/
+10
+1r
+1d
+#180000
+0!
+0O
+0P
+12
+#185000
+1!
+1O
+1P
+02
+1s
+0o
+1e
+0G!
+1C!
+0~
+0p
+1.!
+1w
+1v
+1b
+1A
+1>
+0r
+0c
+0d
+#190000
+0!
+0O
+0P
+12
+#195000
+1!
+1O
+1P
+02
+0P"
+1Q"
+1_!
+1U"
+1L"
+1M"
+1\!
+0T"
+0s
+1f
+0e
+19"
+16"
+1O"
+1]!
+1^!
+0H!
+1E!
+1I!
+1D!
+0v
+1{
+0A
+0h
+1Y
+1U
+0.!
+0w
+0>
+04!
+1t
+1F!
+1<!
+03!
+0-!
+1=!
+0B!
+#200000
+0!
+0O
+0P
+12
+#205000
+1!
+1O
+1P
+02
+1Y!
+0X!
+05"
+0f
+1[
+1V!
+1S!
+0R!
+0y
+0u
+0^
+1R
+0g
+0b
+0Y
+0U
+0q
+1_
+0z
+1\
+1`
+#210000
+0!
+0O
+0P
+12
+#215000
+1!
+1O
+1P
+02
+1F"
+1I"
+0J"
+1a
+0[
+1b
+1c
+0_
+1,
+1/
+00
+0c
+1d
+0d
+#220000
+0!
+0O
+0P
+12
+#225000
+1!
+1O
+1P
+02
+#230000
+0!
+0O
+0P
+12
+#235000
+1!
+1O
+1P
+02
+#240000
+0!
+0O
+0P
+12
+#245000
+1!
+1O
+1P
+02
+#250000
+0!
+0O
+0P
+12
+#255000
+1!
+1O
+1P
+02
+#260000
+0!
+0O
+0P
+12
+#265000
+1!
+1O
+1P
+02
+#270000
+0!
+0O
+0P
+12
+#275000
+1!
+1O
+1P
+02
+#280000
+0!
+0O
+0P
+12
+#285000
+1!
+1O
+1P
+02
+#290000
+0!
+0O
+0P
+12
+#295000
+1!
+1O
+1P
+02
+#300000
+0!
+0O
+0P
+12
+#305000
+1!
+1O
+1P
+02
+#310000
+0!
+0O
+0P
+12
+#315000
+1!
+1O
+1P
+02
+#320000
+0!
+0O
+0P
+12
+#325000
+1!
+1O
+1P
+02
+#330000
+0!
+0O
+0P
+12
+#335000
+1!
+1O
+1P
+02
+#340000
+0!
+0O
+0P
+12
+#345000
+1!
+1O
+1P
+02
+#350000
+0!
+0O
+0P
+12
+#355000
+1!
+1O
+1P
+02
+#360000
+0!
+0O
+0P
+12
+#365000
+1!
+1O
+1P
+02
+#370000
+0!
+0O
+0P
+12
+#375000
+1!
+1O
+1P
+02
+#380000
+0!
+0O
+0P
+12
+#385000
+1!
+1O
+1P
+02
+#390000
+0!
+0O
+0P
+12
+#395000
+1!
+1O
+1P
+02
+#400000
+0!
+0O
+0P
+12
+#405000
+1!
+1O
+1P
+02
+#410000
+0!
+0O
+0P
+12
+#415000
+1!
+1O
+1P
+02
+#420000
+0!
+0O
+0P
+12
+#425000
+1!
+1O
+1P
+02
+#430000
+0!
+0O
+0P
+12
+#435000
+1!
+1O
+1P
+02
+#440000
+0!
+0O
+0P
+12
+#445000
+1!
+1O
+1P
+02
+#450000
+0!
+0O
+0P
+12
+#455000
+1!
+1O
+1P
+02
+#460000
+0!
+0O
+0P
+12
+#465000
+1!
+1O
+1P
+02
+#470000
+0!
+0O
+0P
+12
+#475000
+1!
+1O
+1P
+02
+#480000
+0!
+0O
+0P
+12
+#485000
+1!
+1O
+1P
+02
+#490000
+0!
+0O
+0P
+12
+#495000
+1!
+1O
+1P
+02
+#500000
+0!
+0O
+0P
+12
+#505000
+1!
+1O
+1P
+02
+#510000
+0!
+0O
+0P
+12
+#515000
+1!
+1O
+1P
+02
+#520000
+0!
+0O
+0P
+12
+#525000
+1!
+1O
+1P
+02
+#530000
+0!
+0O
+0P
+12
+#535000
+1!
+1O
+1P
+02
+#540000
+0!
+0O
+0P
+12
+#545000
+1!
+1O
+1P
+02
+#550000
+0!
+0O
+0P
+12
+#555000
+1!
+1O
+1P
+02
+#560000
+0!
+0O
+0P
+12
+#565000
+1!
+1O
+1P
+02
+#570000
+0!
+0O
+0P
+12
+#575000
+1!
+1O
+1P
+02
+#580000
+0!
+0O
+0P
+12
+#585000
+1!
+1O
+1P
+02
+#590000
+0!
+0O
+0P
+12
+#595000
+1!
+1O
+1P
+02
+#600000
+0!
+0O
+0P
+12
+#605000
+1!
+1O
+1P
+02
+#610000
+0!
+0O
+0P
+12
+#615000
+1!
+1O
+1P
+02
+#620000
+0!
+0O
+0P
+12
+#625000
+1!
+1O
+1P
+02
+#630000
+0!
+0O
+0P
+12
+#635000
+1!
+1O
+1P
+02
+#640000
+0!
+0O
+0P
+12
+#645000
+1!
+1O
+1P
+02
+#650000
+0!
+0O
+0P
+12
+#655000
+1!
+1O
+1P
+02
+#660000
+0!
+0O
+0P
+12
+#665000
+1!
+1O
+1P
+02
+#670000
+0!
+0O
+0P
+12
+#675000
+1!
+1O
+1P
+02
+#680000
+0!
+0O
+0P
+12
+#685000
+1!
+1O
+1P
+02
+#690000
+0!
+0O
+0P
+12
+#695000
+1!
+1O
+1P
+02
+#700000
+0!
+0O
+0P
+12
+#705000
+1!
+1O
+1P
+02
+#710000
+0!
+0O
+0P
+12
+#715000
+1!
+1O
+1P
+02
+#720000
+0!
+0O
+0P
+12
+#725000
+1!
+1O
+1P
+02
+#730000
+0!
+0O
+0P
+12
+#735000
+1!
+1O
+1P
+02
+#740000
+0!
+0O
+0P
+12
+#745000
+1!
+1O
+1P
+02
+#750000
+0!
+0O
+0P
+12
+#755000
+1!
+1O
+1P
+02
+#760000
+0!
+0O
+0P
+12
+#765000
+1!
+1O
+1P
+02
+#770000
+0!
+0O
+0P
+12
+#775000
+1!
+1O
+1P
+02
+#780000
+0!
+0O
+0P
+12
+#785000
+1!
+1O
+1P
+02
+#790000
+0!
+0O
+0P
+12
+#795000
+1!
+1O
+1P
+02
+#800000
+0!
+0O
+0P
+12
+#805000
+1!
+1O
+1P
+02
+#810000
+0!
+0O
+0P
+12
+#815000
+1!
+1O
+1P
+02
+#820000
+0!
+0O
+0P
+12
+#825000
+1!
+1O
+1P
+02
+#830000
+0!
+0O
+0P
+12
+#835000
+1!
+1O
+1P
+02
+#840000
+0!
+0O
+0P
+12
+#845000
+1!
+1O
+1P
+02
+#850000
+0!
+0O
+0P
+12
+#855000
+1!
+1O
+1P
+02
+#860000
+0!
+0O
+0P
+12
+#865000
+1!
+1O
+1P
+02
+#870000
+0!
+0O
+0P
+12
+#875000
+1!
+1O
+1P
+02
+#880000
+0!
+0O
+0P
+12
+#885000
+1!
+1O
+1P
+02
+#890000
+0!
+0O
+0P
+12
+#895000
+1!
+1O
+1P
+02
+#900000
+0!
+0O
+0P
+12
+#905000
+1!
+1O
+1P
+02
+#910000
+0!
+0O
+0P
+12
+#915000
+1!
+1O
+1P
+02
+#920000
+0!
+0O
+0P
+12
+#925000
+1!
+1O
+1P
+02
+#930000
+0!
+0O
+0P
+12
+#935000
+1!
+1O
+1P
+02
+#940000
+0!
+0O
+0P
+12
+#945000
+1!
+1O
+1P
+02
+#950000
+0!
+0O
+0P
+12
+#955000
+1!
+1O
+1P
+02
+#960000
+0!
+0O
+0P
+12
+#965000
+1!
+1O
+1P
+02
+#970000
+0!
+0O
+0P
+12
+#975000
+1!
+1O
+1P
+02
+#980000
+0!
+0O
+0P
+12
+#985000
+1!
+1O
+1P
+02
+#990000
+0!
+0O
+0P
+12
+#995000
+1!
+1O
+1P
+02
+#1000000

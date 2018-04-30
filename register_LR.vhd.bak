@@ -1,0 +1,51 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity register_LR is port
+(
+	load, reset, clk, I : in std_logic;
+	Q : out std_logic
+);
+end register_LR;
+
+architecture hardware of register_LR is
+
+--component mux_2_to_1
+	--port
+	--(
+		--I0,I1 : in std_logic;
+		--S     : in std_logic;
+		--Ot    : out std_logic
+	--);
+--end component;
+component flip_flop_D
+	port
+	(
+		D,clk : in std_logic;
+		Q,Qbar : out std_logic
+	);
+	
+end component;
+--signal dado : std_logic;
+--signal D : std_logic;       -- sinal da saida do mux do reset, sinal que vai para o flip-flip
+--signal D_load : std_logic;  -- sinal da saida do mux do load
+--dado & I & '0' &'0'
+signal auxQ , auxQ_not : std_logic;
+begin
+	
+	if(load = '1') then
+		FFD : flip_flop_D port map(I,clk, auxQ , auxQ_not);
+	end if;
+	
+	if(reset = '1') then
+		Q <= '0';
+	else 
+		Q <= auxQ;
+	end if;	
+	
+	--mux_load  : mux_2_to_1 port map(dado,I,load,D_load); -- mux de menor prioridade
+	--mux_reset : mux_2_to_1 port map(D_load,'0',reset,D); -- mux de maior prioridade 
+	
+	--FFD : flip_flop_D port map(D,clk,dado);
+	--Q <= dado;
+end hardware;
