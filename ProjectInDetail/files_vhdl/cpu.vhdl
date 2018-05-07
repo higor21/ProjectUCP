@@ -82,7 +82,7 @@ begin
 
   process(rst, clk, cpu_out)
   begin
-		-- AQUI NÃO HÁ NADA
+		-- there's nothing here
   end process;							
 end struc;
 
