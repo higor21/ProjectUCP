@@ -1,10 +1,8 @@
- --cpu (top level entity)
-
+ 
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.std_logic_arith.all;
 
--- these should probably stay the same
 entity Processador is
    port (rst           : in STD_LOGIC;
     	   start         : in STD_LOGIC;
@@ -14,7 +12,6 @@ entity Processador is
         );
 end Processador;
 
--- these will change as your design grows
 architecture struc of Processador is
 component ctrl 
    port ( rst   : in STD_LOGIC;
@@ -66,14 +63,6 @@ signal address_aux : std_logic_vector(1 downto 0);
 
 begin
 
--- notice how the output from the datapath is tied to a signal
--- this output signal is then used as input for a decoder.
--- we can also see the output as "output".
--- the output from the datapath should be coming from the accumulator.
--- this is because all actions take place on the accumulator, including
--- all results of any alu operation. naturally, this is because of the 
--- nature of the instruction set.
-
   controller: ctrl port map(rst, start, clk, immediate, enb_rf_aux, enb_acc_aux, code_aux, address_aux);
   datapath: dp port map(rst, clk, immediate, cpu_out, code_aux, enb_rf_aux, enb_acc_aux, address_aux);
   Conversor_Number: Conv_to_Outs port map (clk, cpu_out, Q1, Q2);
@@ -82,7 +71,7 @@ begin
 
   process(rst, clk, cpu_out)
   begin
-		-- there's nothing here
+	
   end process;							
 end struc;
 
